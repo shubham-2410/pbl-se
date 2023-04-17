@@ -1,0 +1,200 @@
+#home{
+    height:100vh;
+}
+
+#home-sec{
+    display: flex;
+    height: 80vh;
+}
+
+.text_area {
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+.name {
+    font-size: 4rem;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+}
+
+.text {
+    /* border: 2px solid pink; */
+    margin: 0px 10px;
+    font-size: 1.5rem;
+    /* height: 50vh; */
+}
+
+.get_start {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid pink; */
+}
+
+.get_start form div input {
+    /* border: 2px solid black; */
+    height: 36px;
+    border-radius: 3px;
+    text-align: center;
+    color: black;
+}
+
+.get_start button {
+    background-color: grey;
+    width: 8rem;
+    border-radius: 5px;
+    height: 36px;
+}
+
+.emoji_area {
+    /* border: 2px solid blue; */
+    width: 49vw;
+    overflow: hidden;
+    
+    height: 81.5vh;
+}
+
+.green_area {
+    border: 2px solid black;
+    height: 90%;
+    width: 90%;
+    background-color: #40b855;
+    border-radius: 45px;
+    transform: rotateZ(28.18deg) translateX(13rem) translateY(9rem);
+    transform-origin: center;
+
+}
+
+
+
+
+
+/* about section css */
+
+
+#about-section h1{
+    /* border:4px solid yellow; */
+    text-align:center;
+    font-size:2.8rem;
+}
+
+
+#tagline-section{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+} 
+
+#tagline{
+    font-size: 1.6rem;
+    margin:5px;
+    /* width:100vh; */
+
+}
+
+#tagline.tag{
+    /* border:2px solid red; */
+    color: green;
+    font-style:italic;
+}  
+
+
+#about-us{
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction:row;
+    /* width:30vw; */
+    /* height:1vh; */
+}
+ 
+
+#about-us img{
+    width:30vw;
+}
+
+.descr{
+    margin:17px;
+    border:2px solid green;
+    /* height:60%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact section */
+
+#contact-section{
+    background:url("img/contact_bg4.jpg") center/cover no-repeat;
+    
+}
+
+
+#contact-section h1{
+    text-align:center;
+    font-size: 2.7rem;
+    margin:17px 2px;
+}
+
+.form-group{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group label{
+    /* border:2px solid red; */
+    font-size:1.4rem;
+    color:blue;
+    margin:412px 1px;
+    padding:12px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form-group input{
+    width:100%;
+    padding:4px;
+    font-size: 1.1rem;
+}
+
+.form-group textarea{
+    width:100%;
+    border-radius:12px;
+    /* margin:12px; */
+    /* padding:11px; */
+    font-size: 1.2rem;;
+}
+
+
+
+
+
+/* for footer */
+
+.foot{
+    /* margin:22px 0px; */
+    height:48px;
+}
