@@ -1,3 +1,7 @@
+body{
+  /* background: rgb(229 248 255); */
+}
+
 .main_body {
   /* border: #000000 solid 5px; */
   display: flex;
