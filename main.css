@@ -22,7 +22,7 @@
   font-size: 5rem;
 }
 .vector {
-  background-image: url("/Images/Vector\ 1.png");
+  background-image: url("./Images/Vector\ 1.png");
   background-size: contain;
   background-position: 0%;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@
 .email {
   width: 230px;
   color: #000;
-  background-color: #D9D9D9 ;
+  background-color: #d9d9d9;
   font-size: 1.5rem;
   /* border: none; */
   border-radius: 8px;
@@ -143,38 +143,64 @@
 }
 
 .about-container h1 {
-  font-size: 5rem;
-  padding: 1.2rem 0rem;
+  font-size: 3rem;
 }
 
 .about-container h2 {
-  font-size: 3rem;
-  padding: 1.2rem 0rem;
+  font-size: 2rem;
 }
 
-.about-element {
+.about_element {
   display: flex;
   /* justify-content: space-between  ; */
   align-items: center;
   margin: 1px 0px;
 }
 
-.about-element p {
-  font-size: 1.7rem;
+.about_element p {
+  font-size: 1.6rem;
   margin: 1rem 2rem 0.2rem 0rem;
   padding: 1rem;
   border-radius: 5px;
   transition: 0.5s ease-in;
 }
-.about-element img {
+.about_element img {
   height: 150px;
   border-radius: 5px;
   /* border: solid 2px #5d3995; */
 }
 
-.about-element p:hover {
+.about_element p:hover {
   background-color: #40ba55;
   color: white;
+}
+
+/* Contact */
+
+.contact-container {
+  text-align: center;
+  padding: 1rem 3rem;
+}
+.contact-container h1 {
+  font-size: 3rem;
+  padding: 0.9rem;
+}
+.contact_element{
+  padding: 0rem 2rem;
+}
+
+.contact_element a {
+  text-decoration: none;
+  color: #000;
+  vertical-align: middle;
+  padding-left: 0.6rem;
+}
+.contact_element img {
+  width: 20px;
+  vertical-align: middle;
+}
+.contact_element a:hover{
+  color:#40ba55;
 }
 
 /* for footer */
