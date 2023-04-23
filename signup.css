@@ -18,8 +18,7 @@
 }
 
 form{
-    display:flex;
-    
+    display:flex;    
 }
 
 input{
@@ -27,14 +26,28 @@ input{
 }
 
 
-
 #main{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(235, 238, 238);
+    /* background-color:rgb(235, 238, 238); */
+    margin-top:8%;   
 }
 
+
+#main input{
+    /* border:2px solid red; */
+    height:1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    padding:2px 5px;
+}
+
+#main label{
+    /* border:2px solid green; */
+    font-size: 1.2rem;
+}
 
 
 #rightPart{
@@ -55,11 +68,83 @@ input{
 
 form{
     margin:12px 4px;
-    /* border: 2px solid green; */    
+    /* border: 2px solid green; */ 
+    
 }
 
 
+.formRight #branch{
+    /* border: 2px solid green;  */
+    /* width:100%; */
+    /* margin:0px 18px; */
+    margin-right:-35px;
+}
+
+.formLeft #roll{
+       /* border: 2px solid green;  */
+       margin-right:31px;
+}
+
+.fomRight input{
+    /* margin-left: 65px; */
+    /* border: 2px solid red;  */
+    width:72%;
+}
+
+.fomRight{
+    /* border: 2px solid blue;  */
+    margin-left: 65px;
+}
+#upper{
+    /* border: 2px solid green;  */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5%;
+    margin-bottom:-7%;
+}
+
+#upper a{
+    color: green;
+    font-size: 1.35rem;
+}
+
+#lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* for lower button */
+#lower button{
+    border:2px solid green;
+    width:133px;
+    height: 40px;
+    font-size:larger;
+    background-color: rgb(55, 122, 55);
+    color:white;
+    border-radius: 13px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+#lower button:hover{
+    color:rgb(237, 234, 234);
+    background-color: rgb(10, 103, 10);
+}
 
 
+#leftPart{
+    background-color:rgb(240, 239, 239);
+    /* border-right:none; */
+    /* border: none; */
+    border-radius: 7px;
+}
 
-
+#rightPart{
+    background-color: rgb(234, 253, 247);
+    border-radius: 7px;
+    /* border-left:none; */
+    /* border-left: rgb(46, 11, 203); */
+}
