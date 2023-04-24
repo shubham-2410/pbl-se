@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkMe</title>
+    <link rel="icon" type="images/x-icon" href="./Images/LOGO.png" />
+    <link rel="styleSheet" href="main.css">
+    <link rel="styleSheet" href="shared.css">
+    <link rel="styleSheet" href="teacher_feed.css">
+    <link href="" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="nav_bar">
+            <div class="logo">
+
+            </div>
+            <ul class="main_nav">
+                <li class="main_nav_item"><a href="/">Home</a></li>
+                <li class="main_nav_item"><a href="#about">About</a></li>
+                <li class="main_nav_item"><a href="">Contact Us</a></li>
+            </ul>
+            <ul >
+                <div class="profile"></div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <span class="container">
+            <form action="">
+                <h2>Fill the detail for taking <br> attendance</h2>
+                <div class="container_element">
+                    <div class="element_child">
+                        <label for="year">Year : </label>
+                        <select name="year" id="year">
+                            <option value="se">SE</option>
+                            <option value="fe">FE</option>
+                            <option value="te">TE</option>
+                            <option value="be">BE</option>
+                        </select>
+                    </div>
+                    <div class="element_child">
+                        <label for="branch">Branch : </label>
+                        <select name="branch" id="branch">
+                            <option value="fe">COMPUTER</option>
+                            <option value="se">MECHANICAL</option>
+                            <option value="te">E&TC</option>
+                            <option value="be">CIVIL</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="container_element">
+                    <div class="element_child">
+                        <label for="subject">Subject : </label>
+                        <select name="subject" id="subject">
+                            <option value="dsa">DSA</option>
+                            <option value="ppl">PPL</option>
+                            <option value="em">M3</option>
+                            <option value="mp">MP</option>
+                            <option value="se">SE</option>
+                        </select>
+                    </div>
+                    <div class="element_child">
+                        <label for="div">Division : </label>
+                        <select name="div" id="div">
+                            <option value="se">A</option>
+                            <option value="fe">B</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="container_element code_generate">
+                    <p>0000</p>
+                    <button >Generate Code</button>
+                </div>
+                <div class="container_element">
+                    <button class="create_post_btn">Create Post</button>
+                </div>
+
+
+            </form>
+
+
+        </span>
+    </main>
+</body>
+
+</html>

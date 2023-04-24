@@ -1,3 +1,4 @@
+
 .main_body {
   /* border: #000000 solid 5px; */
   display: flex;
@@ -144,6 +145,7 @@
 
 .about-container h1 {
   font-size: 3rem;
+  padding: 1rem 0rem
 }
 
 .about-container h2 {
