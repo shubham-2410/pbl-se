@@ -2,7 +2,9 @@
     margin:0px;
     padding:0px;
 }
-
+body{
+    background: #eee;
+}
 .leftMain{
     border:2px solid green;
     height:100%;
@@ -14,7 +16,7 @@
     border:2px solid green;
     height:100%;
     width:50%;
-    background-color: rgb(245, 243, 243);
+    background-color: rgb(254, 249, 249);
 }
 /* for aligning the left as well as right column part */
 .rightMain form{
