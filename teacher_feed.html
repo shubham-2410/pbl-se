@@ -35,7 +35,7 @@
     <main>
 
         <span class="container">
-            <form action="">
+            <form>
                 <h2>Fill the detail for taking <br> attendance</h2>
                 <div class="container_element">
                     <div class="element_child">
@@ -77,8 +77,8 @@
                     </div>
                 </div>
                 <div class="container_element code_generate">
-                    <p>0000</p>
-                    <button >Generate Code</button>
+                    <p id="code">0000</p>
+                    <button onclick="randomNum()" >Generate Code</button>
                 </div>
                 <div class="container_element">
                     <button class="create_post_btn">Create Post</button>
@@ -90,6 +90,7 @@
 
         </span>
     </main>
+    <script src="code.js"></script>
 </body>
 
 </html>
