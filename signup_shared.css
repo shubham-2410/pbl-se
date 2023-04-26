@@ -39,7 +39,6 @@ main {
 }
 
 .container_element .left {
-
   display: flex;
   flex-direction: column;
   padding: 1rem;
