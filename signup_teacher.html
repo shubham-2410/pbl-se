@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Teacher</title>
+    <link rel="stylesheet" href="signup_shared.css">
+    <link rel="styleSheet" href="shared.css">
+
+</head>
+<header>
+    <nav class="nav_bar">
+        <div class="logo">
+
+        </div>
+        <ul class="main_nav">
+            <li class="main_nav_item"><a href="index.html">Home</a></li>
+            <li class="main_nav_item"><a href="index.html">About</a></li>
+            <li class="main_nav_item"><a href="index.html">Contact Us</a></li>
+        </ul>
+        <ul class="side_nav">
+            <li class="side_nav_item"><a href="login.html">Login</a></li>
+            <li class="side_nav_item" id="sign_up_button"><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <main>
+        <div class="heading">
+            <h2>Create new account</h2>
+            <p>if already exist then <a href="login.html">login</a></p>
+
+        </div>
+        <form class="container" action="teacher_feed.html">
+            <div class="container_element">
+                <div class=" left">
+                    <h2 style="text-align: center;">Personal
+                        Info</h2>
+                    <div class="left_element">
+                        <div class="label_input">
+                            <label for="name">First Name:</label>
+                            <input type="text" id="name">
+                        </div>
+                        
+                    </div>
+                    <div class="left_element">
+                        <div class="label_input">
+                            <label for="l_name">Last Name:</label>
+                            <input type="text" id="l_name">
+                        </div>
+                        
+                    </div>
+                    <div class="left_element">
+                        
+                        <div class="label_input">
+                            <label for="m_no">Mobile No:</label>
+                            <input type="tel" id="m_no">
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h2 style="text-align: center">Login Credential</h2>
+                    <label for="mail">Email:</label>
+                    <input type="mail" id="mail">
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass">
+                    <label for="c_pass">Confirm Password:</label>
+                    <input type="password" id="c_pass">
+                </div>
+                <hr>
+
+            </div>
+            <button class="btn">Sign up</button>
+        </form>
+
+
+    </main>
+</body>
+
+</html>

@@ -1,53 +1,50 @@
-*{
-    padding:0px;
-    margin:0px;
+.profile {
+  background: url("./Images/profile.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
-body{
-    background: #eee;
+#main {
+  border: 2px solid green;
+  width: 40%;
+  margin: auto;
+  margin-top: 5rem;
 }
 
-#main{
-    border:2px solid green;
-    height:55vh;
-    width:40vw;
-    margin:auto;
-    background: white;
-
-
+.block {
+  margin: 6% 13%;
+  font-size: 1.2rem;
 }
 
-.block{
-    margin:6% 13%;
-    font-size: 1.2rem;
+button {
+  height: 34px;
+  border: none;
+  outline: none;
+  background: #40ba55;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #eee;
+  border-radius: 4px;
+  letter-spacing: 0.07em;
 }
 
-button{   
-   height: 34px;
-   border: none;
-   outline: none;
-   background: #40ba55;
-   cursor: pointer;
-   font-size: 1.1rem;
-   color: #eee;
-   border-radius: 4px;
+.btn button {
+  width: 45%;
 }
 
-.btn button{
-    width:45%;
-    margin-bottom:40px;
+.sheet button {
+  width: 100%;
+  margin-top: 32px;
 }
 
-.sheet button{
-    width:100%;
-    margin-top: 32px;
+.btn #firstBtn {
+  background-color: #5d3995;
+  margin-right: 8.7%;
 }
-
-.btn #firstBtn{
-    background-color:rgb(56, 12, 56);
-    margin-right:8.7%;
+.btn #secondBtn {
+  background-color: #ff3f3f;
 }
-.btn #secondBtn{
-    background-color:rgb(201, 71, 71);
-}
-

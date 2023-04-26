@@ -7,3 +7,7 @@ signup.addEventListener("click", function () {
   backdrop.style.display = "block";
   option.style.display = "flex";
 });
+backdrop.addEventListener("click", function () {
+  backdrop.style.display = "none";
+  option.style.display = "none";
+});
