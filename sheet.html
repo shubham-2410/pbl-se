@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link rel="stylesheet" href="login.css">
-    <link rel="styleSheet" href="shared.css">
-    <link rel="stylesheet" href="signup.html">
+    <title>Sheet Download</title>
+    <link rel="stylesheet" href="sheet.css">
 </head>
-
 <body>
     
     <header>
@@ -23,30 +19,34 @@
                 <li class="main_nav_item"><a href="index.html">About</a></li>
                 <li class="main_nav_item"><a href="index.html">Contact Us</a></li>
             </ul>
-            <ul class="side_nav">
+            <!-- <ul class="side_nav">
                 <li class="side_nav_item"><a href="login.html">Login</a></li>
                 <li class="side_nav_item" id="sign_up_button"><a href="signup.css">Sign Up</a></li>
-            </ul>
+            </ul> -->
         </nav>
     </header>
 
-
-    <div class="container">
-
-        <form action="" class="login-form">
-            <h1>Login</h1>
-            <hr style="margin: 20px 0px;">
-            <div class="form-group">
-                <label for="mail">Email</label>
-                <input type="email" class="input_field" id="mail" required>
-            </div>
-            <div class="form-group">
-                <label for="mail">Password</label>
-                <input type="password" class="input_field" id="pass" required>
-            </div>
-            <input type="submit" class="btn" value="login">
-        </form>
+    <div id="main">
+    
+    <div class="btn block">
+        <button id="firstBtn">Stop</button>
+        <button id="secondBtn">Cancel</button>
     </div>
-</body>
 
+    <div class="time block">
+        <p>Time Remaining : 4:59 min</p>
+    </div>
+
+    <div class="Count block">
+        <p>count : 00</p>
+    </div>
+
+    <div class="sheet block">
+        <button>Download Sheet</button>
+    </div>
+
+</div>
+
+
+</body>
 </html>
