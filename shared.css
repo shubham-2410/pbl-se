@@ -31,7 +31,7 @@
   text-align: center;
   color: white;
   background-color: #40ba55;
-  padding:  0.2rem 1rem;
+  padding: 0.2rem 1rem;
   margin: 1rem;
   border-radius: 8px;
 }
@@ -95,12 +95,14 @@
 .nav_bar a:hover {
   color: blueviolet;
   border-bottom: 2px solid black;
+  cursor: pointer;
 }
 
 #sign_up_button a:hover {
   /* color: black; */
   /* border: black solid 1px; */
   background-color: blueviolet;
+  cursor: pointer;
 }
 
 .side_nav a:hover {

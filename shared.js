@@ -1,7 +1,9 @@
 var backdrop = document.querySelector(".backdrop");
 var option = document.querySelector(".options");
 var signup = document.getElementById("sign_up_button");
-var back = document.getElementById("back");
+const index = document.querySelectorAll(".sign_option a");
+
+console.log(index);
 
 signup.addEventListener("click", function () {
   backdrop.style.display = "block";
