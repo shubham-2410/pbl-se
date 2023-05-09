@@ -38,7 +38,7 @@
   margin-top: 3rem;
 }
 .slogan h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: normal;
 }
 
@@ -48,7 +48,7 @@
   height: auto;
 }
 .description h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: normal;
   margin-top: 3rem;
 }
@@ -225,3 +225,93 @@
 .main-footer a:active {
   color: #40ba55;
 }
+
+
+
+/* for auto typing */
+
+*{
+  margin:0px;
+  padding:0px;
+  /* box-sizing:border-box; */
+}
+
+.wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:20vh;
+  /* background-color:black; */
+}
+
+.wrapper{
+  display:flex;
+}
+
+.wrapper .first-text{
+  font-size:54px;
+  /* color:aliceblue; */
+}
+
+.sec-texts li{
+  font-size:54px;
+  color: aqua;
+  margin:0px 15px;
+  margin-bottom:19px;
+  text-shadow:0px 0px 1px rgb(14, 2, 2);
+  list-style: none;
+
+  animation:slide 12s steps(4) infinite,colourful 10s infinite ;
+  position:relative;
+  top:0px;
+}   
+
+@keyframes slide{
+  100%{
+      top:-315px;
+  }
+}
+
+
+
+/*  */
+@keyframes colourful{
+  100%{
+      filter: hue-rotate(360deg);
+  }
+}
+
+
+.sec-texts li span{
+  position:relative;
+  
+} 
+
+.sec-texts span::before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  border-left:2px solid aqua;
+  background-color:white;
+
+  /* left:100%; */
+  left:0%;
+  animation:typing 1.5s steps(17) infinite alternate;
+}
+
+@keyframes typing{
+  100%{
+      /* left:110%; */
+      left:100%;
+      margin:0 18px 0 18px;
+  }
+}
+.wrapper .sec-texts{
+  /* border: 2px solid red; */
+  height:60px;
+  line-height:60px;
+  overflow: hidden;
+}
+
+
