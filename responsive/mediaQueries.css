@@ -1,0 +1,278 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+ /* //// Responsive---For HEADRER / Nav-bar */
+ .line{
+    width:30px;
+    height:4.5px;
+    /* color: black; */
+    background-color: black;
+    margin:6px 12px;
+  }
+  .burger{
+    position: absolute;
+    right:4%;
+    top:14px;
+    display:none;
+  }
+
+body{
+    /* background-color:rgb(180, 177, 177); */
+}
+
+@media (max-width:950px){
+  
+    
+    body{
+        /* background-color:rgb(180, 177, 177); */
+        border:2px solid green;
+        width:100vw;
+    }
+    
+    .main_body h1{
+        font-size:4rem;
+        /* align-items: center; */
+    }
+    .main_body .name{
+        /* border:2px solid red; */
+        margin:auto;
+    }
+    .main_body{
+        /* background-color:gray; */
+        flex-direction: column;
+        padding:0px;
+        /* width:100%; */
+        /* box-sizing: border-box; */
+
+    }
+    .main_left{
+        /* background-color: aqua; */
+        width:100vw;
+        margin:0px;
+        padding:0px;
+    }
+    .slogan h2{
+        width:100vw;
+        font-size:24px;
+        /* padding:0px 5px; */
+        margin-left:12px;
+        margin-right:12px;
+        text-align: center;
+        margin:auto;
+    }
+    .description h3{
+        text-align: center;
+        margin-left:12px;
+        margin-right:12px;
+        /* margin:auto; */
+    }
+
+
+
+
+
+
+    /* Image Animation */
+    .rectangle_container{
+        /* border:2px solid red; */
+        width:100vw;
+    }
+    .rectangle{
+        /* border:2px solid blue; */
+        /* transform:none; */
+        transform: rotate(24deg);
+        position:relative;
+        top:26vw;
+        left:35%;
+    }
+    .animation{
+        /* border:2px solid black; */
+        height:28vh;
+        width:65vw;
+        margin-left:32vw;
+    }
+
+@media(max-width:600px){
+    .rectangle{
+        /* border:2px solid blue; */
+        /* transform:none; */
+        transform: rotate(28deg);
+        position:relative;
+        top:20vh;
+        left:28%;
+    }
+    .animation{
+           /* border:2px solid black; */
+           height:21vh;
+           width:95vw;
+           margin-left:9vw;
+    }
+
+}
+
+@media(max-width:500px){
+    .rectangle{
+        /* border:2px solid blue; */
+        /* transform:none; */
+        transform: rotate(29deg);
+        position:relative;
+        top:15vh;
+        left:38%;
+    }
+    .animation{
+           /* border:2px solid black; */
+           height:23vh;
+           width:75vw;
+           margin-left:20vw;
+    }
+
+}
+
+
+    /* ABOUT SECTION */
+
+    .about_element{
+        border:.1px solid rgb(46, 202, 32);
+        width:100%;
+        display:flex;
+        flex-direction:column-reverse;
+        margin:54px 0px;
+        border-radius:12px;
+    }
+    .about_element img{
+        width:50%;
+        /* height:10%; */
+
+    }
+    .about_element p{
+        /* padding:0px 12px; */
+        margin: auto;
+    }
+
+
+
+    /* Footer  Section */
+    .main-footer{
+        /* width:100vw; */
+        /* border:2px solid red; */
+        /* margin-left:10px; */
+    }
+    .main-footer li{
+        margin-top:12px;
+    }
+
+   
+
+}
+
+
+
+/* For Nav-Bar */
+
+@media (max-width:865px){
+    .nav_bar{
+        /* border:2px solid blue; */
+        margin:0px;
+        padding:2px 7px;
+        height:80px;
+    }
+   
+    .ham-desc{
+        transition:all 2s ease-out;
+    }
+    nav .main_nav,.side_nav{
+         
+    }
+    .nav_bar{
+        /* border:2px solid red; */
+    }
+    .main_nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .side_nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .burger{
+        display: block;
+        margin-top:12px;
+    }
+    .v-class-resp{
+        opacity:0;
+    }
+    .main_nav{
+        /* border:2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:green;
+        position:absolute;
+        top:9%;
+        right:0px;
+        width:50vw;
+        height:25vh;
+        transition:all 1s ease-out;
+    }
+    .side_nav{
+        /* border:2px solid blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        position:absolute;
+        top:34%;
+        right:0px;
+        width:50vw;
+        height:20vh;
+        transition:all 1s ease-out;
+    }
+    .main_nav li{
+        margin:12px 0px;
+    }
+    .side_nav li{
+        margin:9px 0px;
+    }
+    .main_nav a,.side_nav a{
+        color:white;
+        font-size:1.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/* Contact Section Media Queries */
+
+@media (max-width:705px){
+    .contact-container{
+        text-align: center;
+        width:100vw;
+    }
+    .contact-container span{
+        /* border:2px solid red; */
+        /* display:block; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:15px 0px;
+    }
+    span img{
+        /* border:2px solid red; */
+        height:21px;
+    }
+
+}

@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.11.0/lottie.min.js"></script>
-
+    <link rel="stylesheet" href="./responsive/mediaQueries.css">
 </head>
 
 
@@ -22,19 +22,23 @@
     <div class="backdrop"></div>
 
     <header>
-        <nav class="nav_bar">
+        <nav class="nav_bar h-nav-resp">
             <div class="logo">
-
             </div>
-            <ul class="main_nav">
+            <ul class="main_nav v-class-resp">
                 <li class="main_nav_item"><a href="/">Home</a></li>
                 <li class="main_nav_item"><a href="#about">About</a></li>
                 <li class="main_nav_item"><a href="#contact">Contact Us</a></li>
             </ul>
-            <ul class="side_nav">
+            <ul class="side_nav v-class-resp">
                 <li class="side_nav_item"><a href="login.html">Login</a></li>
                 <li class="side_nav_item" id="sign_up_button" class="sign_option"><a>Sign Up</a></li>
             </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </nav>
     </header>
     <div class="options">
@@ -51,9 +55,9 @@
                 </div>
      
                 <div class="slogan">
-                    <h2>"Mark your presence with ease"</h2>
-                        <!-- Attend smarter with our website." -->
-                                       
+                    <h2>"Mark your presence with ease
+                        Attend smarter with our website."</h2>
+<!--                                        
                     <div class="wrapper">
                     <span class="first-text">Welcome to</span>
                     <ul class="sec-texts">
@@ -62,7 +66,7 @@
                         <li><span>Online Attendence</span> </li>
                         <li><span>Digital India</span></li>
                     </ul>
-                    </div>    
+                    </div>     -->
                 </div>
                 <div class="description">
                     <h3>
@@ -178,9 +182,9 @@
                 </li>
             </ul>
         </nav>
-    </footer>
+    </footer>    
     <script src="shared.js"></script>
+    <script src="./script/script_res.js"></script>
 </body>
-
 
 </html>
